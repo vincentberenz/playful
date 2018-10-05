@@ -3,7 +3,7 @@
 
 # What this is
 
-This is a tutorial for Playful. Playful is a behavior orchestration software for robotics.
+Playful is a behavior orchestration software for robotics.
 It is meant for professional roboticists who want to acquire the skill to develop reactive complex behavior.
 
 Playful is a thin layer that can be placed on top over any Python robotic API, including ROS and NaoQi.
