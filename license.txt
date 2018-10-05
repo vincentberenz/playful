@@ -1,0 +1,68 @@
+
+Playful End User License Agreement
+
+This is a legal agreement ("Agreement") between
+
+you
+
+("You" or "Licensee", either an individual or a single entity)
+
+and
+
+Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.
+Max Planck Institute for Intelligent Systems
+Max-Planck-Ring 4
+72076 Tübingen
+Germany
+
+represented by the Managing Director
+Dr. Michael J. Black
+
+("MPG" or "Licensor")
+
+about using the Playful software for non-commercial academic purposes. Playful is a scripting language for orchestration of Python modules which allows developers to both organize the logic of activation in reactive behaviour tree and setup sensory-motor couplings, making it especially useful for robotics ("Software"). The Software has been developed by a scientist of the Max Planck Institute for Intelligent Systems, Max-Planck-Ring 4, 72076 Tübingen, Germany ("MPI-IS").
+
+Please read the following terms and conditions carefully.
+
+By clicking on "I accept the License Agreement" or by downloading You indicate that You have read and accepted the provisions of this Agreement and that You agree to be bound by all terms and conditions set forth herein. If You do not agree to any of the terms of this Agreement, do not submit a request for the Software and destroy any copies of the Software in your possession immediately.
+1. Copyright
+
+The Software, including but not limited to the program code, sample programs and any associated files is protected by copyright laws.
+2. License
+
+MPG hereby grants You a non-exclusive, single-use, non-transferable, non-sublicensable, free of charge license to use the Software solely for non-commercial academic purposes (e.g. research, teaching or education). Any commercial and/or non-academic use of the Software, including modified versions or other works that in whole or in part are based on or derived from the Software ("Modifications"), or any use to file intellectual property rights on the Software or Modifications, is strictly forbidden (if You are interested in a commercial license, please contact Max-Planck-Innovation GmbH, Amalienstraße 33, 80799 Munich, Germany).
+
+Any copies of the Software should be complete copies including any copyright notices.
+3. Limited Warranty and Liability
+
+The Software is provided “as is” and has not been fitted especially to Licensee’s purposes and comes with limited warranty and liability. Licensor does not provide any support for the Software. Because this Agreement qualifies as a donation, according to Section 521 of the German Civil Code (Bürgerliches Gesetzbuch – BGB) Licensor as donor is liable for intent and gross negligence only. If Licensor fraudulently conceals a legal or material defect, Licensor is obliged to compensate Licensee for the resulting damage. Licensor shall be liable for loss of data only up to the amount of typical recovery costs which would have arisen had proper and regular data backup measures been taken.
+
+The foregoing applies also to Licensor’s legal representatives or assistants in performance. Any further liability shall be excluded.
+
+Patent claims generated through the usage of the software cannot be directed towards the copyright holders.
+4. Ownership; No Further Rights
+
+Nothing in this Agreement alters the ownership in the Software. Neither this Agreement nor the receipt or delivery of the Software shall be construed as granting any license, option or other rights regarding the Software or any parts thereof, other than explicitly set forth in this Agreement. Neither MPG nor MPI-IS is obliged to provide any maintenance or support to You. For the avoidance of doubt, MPG (including MPI-IS and all other research institutes of, or affiliated with, MPG) particularly, without limitation, reserve the right to file intellectual property rights on the Software, to use the Software for research, teaching and collaboration purposes, and to grant further licenses (non-commercial and commercial) regarding the Software.
+5. No Distribution
+
+You are not allowed to distribute, or otherwise make available, the Software and/or Modifications to third parties.
+6. Distribution by Licensor
+
+The Software is distributed by the Licensor for download via playful.is.tuebingen.mpg.de of an executable binary file. There shall be no obligation to provide the source code of the Software or any documentations (e.g. user manuals) relating to the Software.
+7. Modifications
+
+Any Modifications must cite the Software version made available by MPG. All Modifications shall be provided to MPG (via MPI-IS) free of charge and MPG/MPI-IS shall be entitled to use Modifications for any and all purposes including, for the avoidance of doubt, commercial purposes, at no charge or cost and without any restriction whatsoever.
+8. Term and Termination
+
+This Agreement is valid for an indefinite period of time. Each party may terminate this Agreement at any time and without cause by giving notice in text form (e.g. by e-mail) to the other party. If You fail to comply with any term of this Agreement, this Agreement is terminated automatically without further notice. On termination of this Agreement, You have no further right to use, and shall cease any use of, the Software and any copies and Modifications, and You shall have no claim on or arising from the Software. Further, the Software and any copies and Modifications shall be destroyed.
+9. Applicable Law and Place of Jurisdiction
+
+This Agreement shall be construed in accordance with, and be governed by, the laws of Germany.
+Place of jurisdiction is Tübingen, Germany.
+10. Severability Clause
+
+Should any provision of this Agreement, or any portion thereof, be found void, invalid or unenforceable, the remainder of this Agreement or of that provision, as applicable, will not cease to be effective, and this Agreement shall be enforced to the maximum extent permissible so as to reflect and implement, to the extent possible, the original intent of the parties.
+11. Entire Agreement
+
+This Agreement contains the entire agreement between You and MPG relating to the subject matter hereof and replaces all other agreements and understandings in this regard. No modifications or supplementations of this Agreement shall be effective unless in writing and signed by both parties.
+
