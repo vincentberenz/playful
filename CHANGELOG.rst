@@ -1,0 +1,12 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package playful
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Forthcoming
+-----------
+* Merge branch 'master' of https://github.com/vincentberenz/playful
+* updated license in package.xml
+* added gitignore file
+* Update README.md
+* initial commit
+* Contributors: Vincent Berenz
