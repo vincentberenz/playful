@@ -1,0 +1,13 @@
+program:
+
+	a, switch to b if switch_turn | go_to="b"
+	b, switch to a if switch_turn | go_to="a"
+
+	turn_switcher | period=2.0
+
+	a | arg1="a" :
+	  test1 | arg1=arg1
+
+	b | arg1="b" :
+	  test1 | arg1=arg1
+

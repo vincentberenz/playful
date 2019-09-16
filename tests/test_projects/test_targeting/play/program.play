@@ -1,0 +1,4 @@
+program:
+
+	targeting instance: test_target
+	set_instance | value=5

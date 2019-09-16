@@ -1,0 +1,81 @@
+#!/usr/bin/env python
+
+import os,traceback,sys
+from playful.interpreter.vocabulary import Vocabulary
+from playful.terminal.terminal import *
+
+def _print_info():
+    print("")
+    print("\tPlayful. Copyright 2015 Vincent Berenz , Copyright 2015-2018 Max Planck Gesellschaft")
+    print("\tVisit: playful.is.tuebingen.mpg.de | support: playful-support@tuebingen.mpg.de")
+    print()
+
+    
+def _add_current_dir_to_python_path():
+    sys.path.insert(1,os.getcwd())
+
+
+def _get_commands():
+    return  {"execute":"execute playful program",
+             "trail":"list of the files of current playful program",
+             "word":str("display the code and in-file location of specified word"+
+                        " (takes word as extra argument)") }
+
+def _execute():
+    v = Vocabulary(os.getcwd())
+    v.execute()
+
+
+
+def _help():
+    commands = _get_commands()
+    keys = sorted(commands.keys())
+    print()
+    for key in keys:
+        print("\t",key,"\t",commands[key])
+    print()
+
+
+
+def command_line(args):
+    nargs = len(args)
+    known_commands = _get_commands()
+    if nargs==1 :
+        _help()
+        return
+    _add_current_dir_to_python_path()
+
+    if nargs>1:
+        if args[1] == "execute": _execute()
+        elif args[1] == "trail": print_trail()
+        elif args[1] == "word" :
+            if len(args)>=3 :
+                print_word(args[2])
+            else :
+                print()
+                print("usage : playful word <word to describe>")
+                print()
+        else :
+            print()
+            print("unknown command: ",args[1])
+            help()
+
+
+def _playful():
+    _print_info()
+    try :
+        current_dir = os.getcwd()
+        args = sys.argv
+        command_line(args)
+    except Exception as e:
+        print()
+        print("Error:")
+        print(e)
+        print()
+        print("Trace:")
+        print(traceback.format_exc())
+        print()
+        
+
+if __name__ == '__main__' :
+    _playful()

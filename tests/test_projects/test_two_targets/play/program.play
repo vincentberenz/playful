@@ -1,0 +1,5 @@
+program:
+
+	targeting instance: test_target, priority of instance_value
+	set_instance | value=3
+	set_instance | value=2

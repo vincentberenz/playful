@@ -1,0 +1,4 @@
+program:
+
+	test1 | arg2="-2"
+	test2 | arg4="-4"

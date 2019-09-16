@@ -1,0 +1,14 @@
+program:
+
+	a, switch to b if transit | state="a" ; stamp=0.3
+	b, switch to c if transit | state="b" ; stamp=0.6
+	c, switch to a if False | state="c"
+
+	a | arg1="a" :
+	  test1 | arg1=arg1
+
+	b | arg1="b" :
+	  test1 | arg1=arg1
+
+	c | arg1="c" :
+	  test1 | arg1=arg1

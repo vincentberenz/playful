@@ -1,0 +1,8 @@
+program:
+
+	targeting instance: branch
+	set_instance | value=5
+
+	branch:
+	    test_target
+	    test1

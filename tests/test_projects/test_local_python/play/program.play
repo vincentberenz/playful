@@ -1,0 +1,4 @@
+program:
+
+	test_resource, priority of 1 | arg="p1"
+	local_component, while local_conditional | local_value="l1"

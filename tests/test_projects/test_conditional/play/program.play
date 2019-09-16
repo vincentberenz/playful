@@ -1,0 +1,4 @@
+program:
+
+	test_resource, while never_true, priority of 2 | arg="p2"
+	test_resource, priority of 1 | arg="p1"

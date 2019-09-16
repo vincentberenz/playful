@@ -1,0 +1,4 @@
+program:
+
+	test_resource, priority of changing | arg="p2" ; time_wait=0.15
+	test_resource, priority of 1 | arg="p1"

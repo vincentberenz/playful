@@ -1,0 +1,9 @@
+program:
+
+	targeting instance: branch
+	set_instance | value=12
+	set_instance | value=-8 ; other=True
+
+	branch:
+		test_target | no_resource=True ; memory_key="instance_target"
+		targeting other_instance: test_target | no_resource=True ; memory_key="other_instance_target"

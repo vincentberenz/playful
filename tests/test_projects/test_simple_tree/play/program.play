@@ -1,0 +1,8 @@
+program:
+
+	test1
+	test2_and_3 | arg4="-4" ; arg6="-6"
+
+	test2_and_3 | arg4="foo" ; arg6="foo":
+		    test2 | arg4=arg4
+		    test3 | arg6=arg6
