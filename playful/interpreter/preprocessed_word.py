@@ -32,9 +32,9 @@ class Preprocessed_word:
         locs = locals()
         for l in locs :
             setattr(self,l,locs[l])
-        self._scheme_id_and_type_same = False
-        if scheme_id is not None and scheme_type is not None:
-            self._scheme_id_and_type_same = (scheme_type==Memory.get_scheme_type(scheme_id))
+        #self._scheme_id_and_type_same = False
+        #if scheme_id is not None and scheme_type is not None:
+        #    self._scheme_id_and_type_same = (scheme_type==Memory.get_scheme_type(scheme_id))
 
             
     def describe(self):
