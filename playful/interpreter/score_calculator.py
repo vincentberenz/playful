@@ -55,7 +55,7 @@ class Score_calculator_str:
                                                             scheme_type,
                                                             **self._kwargs)
         except Exception as e :
-            raise Exception("\nplayfil interpreter error: failed to preprocess score calculator : "+
+            raise Exception("\nplayful interpreter error: failed to preprocess score calculator : "+
                             str(self._calculator_str)+" : "+str(e)+"\n")
         
         return Score_calculator(evaluation,

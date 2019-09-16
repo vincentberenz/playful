@@ -3,9 +3,19 @@
 
 import inspect,collections
 
+# using signature in python2.7
+try :
+     import funcsigs
+except :
+     pass
+     
 def _get(instance):
-     s = inspect.signature(instance)
-     parameters = [p for p in s.parameters.values() if p.default != inspect._empty]
+     try :
+          s = inspect.signature(instance)
+          parameters = [p for p in s.parameters.values() if p.default != inspect._empty]
+     except :
+          s = funcsigs.signature(instance)
+          parameters = [p for p in s.parameters.values() if p.default != funcsigs._empty]
      return [p.name for p in parameters],[p.default for p in parameters]
 
 def get_args_dict(callable_,**kwargs):
