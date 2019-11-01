@@ -11,7 +11,7 @@ See : [Playful IEEE RAM](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=83
 # Installation
 
 ```bash
-pip install funcsigs # only if you are using python2.7
+pip install funcsigs 
 pip install playful
 ```
 
