@@ -3,6 +3,7 @@
 
 
 from ..resources.resources import Resources
+import time
 
 
 def untake_resource(component,resource):
