@@ -1,0 +1,7 @@
+program:
+
+	higher, while memory_never_true, priority of 2 
+	test_resource_bis, priority of 1 | arg="p1"
+
+	higher:
+		test_resource | arg="p2"

@@ -85,7 +85,7 @@ class Statement(
             self._frequency_queue.append(time.time())
             self._frequency = 10.0 / \
                 (self._frequency_queue[-1] - self._frequency_queue[0])
-            if (not self) or float(self) < 0:
+            if (not self.evaluable_evaluate()) or float(self) < 0:
                 parent_run = False
         else:
             self._frequency = 0

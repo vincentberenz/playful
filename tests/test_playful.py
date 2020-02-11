@@ -298,6 +298,18 @@ class PLAYFUL_TESTCASE(unittest.TestCase):
         arg = Memory.get("arg")
         self.assertEqual(arg,"p1")
 
+    def test_higher_conditional(self):
+        
+        folder = self.get_dir("test_higher_conditional")
+        self._start(folder)
+        Memory.set("never_true_called",False)
+        time.sleep(0.1)
+        self._stop()
+        arg = Memory.get("arg")
+        never_true_called = Memory.get("never_true_called")
+        self.assertEqual(never_true_called,True)
+        self.assertEqual(arg,"p1")
+        
     def test_dynamic_priority(self):
         
         folder = self.get_dir("test_dynamic_priority")

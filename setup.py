@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages, Extension
 
 setup( name='playful',
-       version='1.01',
+       version='1.02',
        description='an interpreter for reactive programming',
        long_description="see https://github.com/vincentberenz/playful",
        packages=['playful',
@@ -14,6 +14,7 @@ setup( name='playful',
                  'playful/orchestration',
                  'playful/resources',
                  'playful/terminal'],
+       install_requires=['funcsigs'],
        zip_safe=True,
        scripts=['playful/terminal/playful']
 )

@@ -87,8 +87,35 @@ class test_resource(playful.Node):
             self.spin(20)
 
         playful.Memory.set("test_resource_exit_"+str(self.arg),True)
-            
 
+
+class test_resource_bis(playful.Node):
+
+    def __init__(self,arg="0"):
+        
+        self.arg = arg
+
+    def execute(self):
+
+        while not self.should_pause():
+
+            if self.ask_for_resource("test_resource"):
+                playful.Memory.set("arg",self.arg)
+
+            else:
+                self.release_all_resources()    
+
+            self.spin(20)
+
+        playful.Memory.set("test_resource_exit_"+str(self.arg),True)
+
+        
+
+def memory_never_true():
+    
+    playful.Memory.set("never_true_called",True)
+    return False
+        
 def never_true():
 
     return False
