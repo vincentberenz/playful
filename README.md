@@ -3,6 +3,8 @@
 
 # What this is
 
+[![Join the chat at https://gitter.im/playful-robot/community](https://badges.gitter.im/playful-robot/community.svg)](https://gitter.im/playful-robot/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Playful is an interpreter for reactive programming applied to robotics.
 
 See : [Playful IEEE RAM](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8357389)
