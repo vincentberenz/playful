@@ -101,7 +101,7 @@ class Component(
             self._frequency = 10.0 / \
                 (self._frequency_queue[-1] - self._frequency_queue[0])
             self._should_pause = False
-            if not hasattr(self, '_t') or not self._t.isAlive():
+            if not hasattr(self, '_t') or not self._t.is_alive():
                 self._t = threading.Thread(target=self._execute)
                 self._t.setDaemon(True)
                 self._t.start()
@@ -208,7 +208,7 @@ class Component(
     def is_running(self):
 
         try:
-            return self._t.isAlive()
+            return self._t.is_alive()
         except BaseException:
             return False
 
